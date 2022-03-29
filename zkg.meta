@@ -4,4 +4,4 @@ description = Enriches the DNS.log with fields from the input framework
 tags = RMF, HVA 
 
 [input DNSenrichment.csv]
-description = Enriching log by using the URI to add domain reputation to the dns.log
+description = Enriching dns log by using the URI to add domain reputation to the dns.log
