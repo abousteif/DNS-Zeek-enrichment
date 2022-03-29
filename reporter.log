@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2021-10-28-17-01-26
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1635454886.511393	Reporter::WARNING	DNSenrichment.csv/Input::READER_ASCII: Init: cannot open enrichment.csv	(empty)
