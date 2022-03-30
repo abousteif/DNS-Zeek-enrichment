@@ -5,7 +5,7 @@ type Idx: record {
 };
 
 type Val: record {
-        service: string &log;
+        reason: string;
 };
 
 global DNSenrichment_table: table[domain] of Val = table();
