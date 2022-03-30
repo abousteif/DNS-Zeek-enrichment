@@ -1,7 +1,7 @@
 module MyDNSEnrichment;
 
 type Idx: record {
-        uri: domain;
+        domain: string;
 };
 
 type Val: record {
